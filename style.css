@@ -45,3 +45,25 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
+.earth-text {
+  display: flex;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  padding-left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  width: 550px;
+  padding-top: 193px;
+}
+.h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.paragraf {
+  font-weight: 450;
+}
