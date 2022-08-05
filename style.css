@@ -48,7 +48,11 @@ a {
 
 .earth-text {
   display: flex;
+  justify-content: space-around;
   background-color: black;
+
+  background-image: url(./francesco-ungaro-jqKS0ET-wGE-unsplash.jpg);
+  background-size: 100% 100%;
 }
 
 .text {
@@ -66,4 +70,51 @@ a {
 }
 .paragraf {
   font-weight: 450;
+}
+
+.barba {
+  background-image: url(./francesco-ungaro-jqKS0ET-wGE-unsplash.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  height: 700px;
+}
+.pic {
+  padding-left: 153px;
+}
+
+.prijava {
+  color: white;
+  width: 450px;
+}
+
+button {
+  background-color: rgba(212, 239, 252, 1);
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: rgb(253, 253, 253);
+  transition: 0.3s ease-in;
+}
+
+.filter {
+  background-image: url("./montaza3\ 1.png");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.filter-text {
+  padding-left: 110px;
+  width: 555px;
+  color: white;
 }
